@@ -17,6 +17,9 @@ export default function PracticeIndustries() {
           <div onClick={categoryClick}>Criminal Law</div>
           <div onClick={categoryClick}>Traffic Law</div>
         </div>
+        <div>
+          <Category searchTerm={useCategory}/>
+        </div>
       </div>
     );
 }
